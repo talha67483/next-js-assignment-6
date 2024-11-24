@@ -9,9 +9,9 @@ const Companies = () => {
       </h1>
 
       <div>
-        <h1 className=" md:hidden md:mx-0 text-center mx-auto    w-[327px] h-[54px] text-[18px] font-bold ">
+        <h1 className=" md:hidden md:mx-0 text-center mx-auto w-[327px] h-[54px] text-[18px] font-bold ">
           Trusted by the world's best companies [social proof to build
-          credibility]{" "}
+          credibility]
         </h1>
       </div>
       <div className="  md:w-[880px] md:mb-0  mb-96 md:h-[56px] w-[420px] h-[50px] flex md:flex-row flex-col items-center   md:space-y-0 space-y-14   md:space-x-14 ">
