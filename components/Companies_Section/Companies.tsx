@@ -10,7 +10,7 @@ const Companies = () => {
 
       <div>
         <h1 className=" md:hidden md:mx-0 text-center mx-auto w-[327px] h-[54px] text-[18px] font-bold ">
-          Trusted by the world's best companies [social proof to build
+          Trusted by the world&apos;s best companies [social proof to build
           credibility]
         </h1>
       </div>
