@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="">
         <div className=" hidden md:flex justify-between md:w-[1280px] w-[428px] md:h-[54px]    h-[54px] bg-[#F7F7F7] border-b-[1.5px]  border-[#676767] ">
           <div className=" flex space-x-5 w-[396px] h-[30px]  items-center py-7 mx-5  ">
-            <p className="w-[205]   h-[21px] text-[14px] font-normal">
+            <p className="w-[255px]  h-[21px] text-[14px] font-normal">
               Phone Number: 956 742 455 678
             </p>
             <span className="border-[1px]  h-9 border-[#676767]"></span>
