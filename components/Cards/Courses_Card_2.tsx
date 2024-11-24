@@ -13,7 +13,12 @@ const Courses_Card_2 = ({ skill, heading, Img }: Props) => {
   return (
     <div className=" w-[416px] h-[534px] bg-[#F7F7F7] rounded-md overflow-hidden ">
       <div>
-        <Image src={Img} alt="Image" width={416} height={300} />
+        <Image
+          src={Img}
+          alt="Image-Logo-not shoeinh"
+          width={416}
+          height={300}
+        />
       </div>
       <div className=" w-[416px] h-[210px] my-5 mx-4 ">
         <div className=" w-[382px] h-[24px] flex justify-between   ">

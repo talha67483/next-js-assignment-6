@@ -23,32 +23,32 @@ const Courses_2 = () => {
        "
       >
         <Courses_Card_2
-          Img="/Images/card-image-1.svg"
+          Img="/images/card-image-1.svg"
           skill="Design"
           heading=" UX/UI Design 201"
         />
         <Courses_Card_2
-          Img="/Images/card-image-2.svg"
+          Img="/images/card-image-2.svg"
           skill="Programmimg"
           heading=" Introduction to Python"
         />
         <Courses_Card_2
-          Img="/Images/card-image-3.svg"
+          Img="/images/card-image-3.svg"
           skill="Business"
           heading=" Data Analysis for Beginners"
         />
         <Courses_Card_2
-          Img="/Images/card-image-4.svg"
+          Img="/images/card-image-4.svg"
           skill="Art"
           heading="Art Specialization"
         />
         <Courses_Card_2
-          Img="/Images/card-image-5.svg"
+          Img="/images/card-image-5.svg"
           skill="Law"
           heading=" Rule of Law"
         />
         <Courses_Card_2
-          Img="/Images/card-image-6.svg"
+          Img="/images/card-image-6.svg"
           skill="Tech"
           heading=" Introduction to webflow"
         />
