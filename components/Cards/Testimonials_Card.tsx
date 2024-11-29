@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 
-interface Props {
+export interface Props {
   name: string;
   skill: string;
   logo: string;
@@ -21,9 +21,9 @@ const Testimonials_Card = ({ name, skill, logo }: Props) => {
           </div>
         </div>
         <p className=" w-[298.67px] h-[135px]  text-[18px]  ">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare."
+          &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+          quis viverra ornare.&quot;
         </p>
         <div className=" w-[215px] h-[56px] flex space-x-4   ">
           <Image

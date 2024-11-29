@@ -8,25 +8,27 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-let cardLoop = [
+const cardLoop = [
   <Testimonials_Card
+    key="card-1"
     skill="Software Developer"
     logo="/images/team-3.svg"
     name="James Nduku "
   />,
   <Testimonials_Card
+    key="card-2"
     skill="Scrum Master"
     logo="/images/team-1.svg"
     name="Erick Kipkemboi"
   />,
   <Testimonials_Card
+    key="card-3"
     skill="UI/UX Designer"
     logo="/images/team-6.svg"
     name="Stephen Kerubo"
   />,
 ];
-
-let [card1, card2, card3] = cardLoop;
+const [card1, card2, card3] = cardLoop;
 const Testimonials = () => {
   return (
     <section className="md:w-[1280px] min-w-[428px] h-[681.89px] md:h-[830.89px] bg-[#F7F7F7]  ">
@@ -50,12 +52,16 @@ const Testimonials = () => {
       </div>
 
       <div className=" flex flex-wrap gap-10 justify-start">
-        <div className=" w-[363px] ml-14 md:hidden inline-block   ">
+        <div className=" w-[363px] ml-14 md:hidden inline-block " key={2}>
           <Carousel>
             <CarouselContent>
-              <CarouselItem> {card1} </CarouselItem>
-              <CarouselItem> {card2} </CarouselItem>
-              <CarouselItem>{card3}</CarouselItem>
+              <CarouselContent>
+                {cardLoop.map((card, index) => (
+                  <CarouselItem key={`carousel-item-${index}`}>
+                    {card}
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

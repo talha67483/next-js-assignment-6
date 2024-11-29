@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
             <div className=" flex md:gap-[40px] md:flex-row flex-col md:ml-16 ml-0    ">
               <div className=" md:ml-20 ">
-                <h1 className=" w-[250px] h-[24px] text-[16px] font-semibold mt-16 md:mt-4 md:ml-0 ml-24      ">
+                <h1 className=" w-[250px] h-[24px] text-[16px] font-semibold mt-16 md:mt-0 md:ml-0 ml-24      ">
                   Courses
                 </h1>
                 <ul className=" w-[250px] h-[185px] text-[14px] space-y-4 pt-10  flex flex-col items-center md:items-start ml-[5px] md:ml-0    ">
