@@ -3,8 +3,8 @@ import React from "react";
 const Achievement = () => {
   return (
     <section className=" md:w-[1280px] md:h-[488px] w-[428px] h-[451px]  bg-[#FFFFFF]  ">
-      <div className=" flex flex-col items-center space-y-12 ">
-        <h1 className=" md:w-[1152px] md:h-[58px] w-[380px] h-[42px] text-[32px] md:text-[48px] font-bold text-center ">
+      <div className=" flex flex-col items-center space-y-10  space-x-10 text-center ">
+        <h1 className=" md:w-[1152px] md:h-[58px] w-[380px] h-[42px] text-[32px] md:text-[48px] font-bold text-center pl-10 ">
           Our Achievements.
         </h1>
         <p className=" md:w-[1152px] md:h-[54px] w-[362px] h-[81px]  text-center ">
