@@ -1,4 +1,3 @@
-import React from "react";
 import Testimonials_Card from "../Cards/Testimonials_Card";
 import {
   Carousel,
@@ -52,16 +51,12 @@ const Testimonials = () => {
       </div>
 
       <div className=" flex flex-wrap gap-10 justify-start">
-        <div className=" w-[363px] ml-14 md:hidden inline-block " key={2}>
+        <div className=" w-[363px] ml-14 md:hidden inline-block">
           <Carousel>
             <CarouselContent>
-              <CarouselContent>
-                {cardLoop.map((card, index) => (
-                  <CarouselItem key={`carousel-item-${index}`}>
-                    {card}
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
+              <CarouselItem> {card1} </CarouselItem>
+              <CarouselItem> {card2} </CarouselItem>
+              <CarouselItem> {card3} </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
@@ -81,16 +76,16 @@ const Testimonials = () => {
             <CarouselItem>
               {" "}
               <div className=" md:flex flex-wrap gap-10  hidden   ">
-                {cardLoop[0]}
-                {cardLoop[1]}
-                {cardLoop[2]}
+                {card1}
+                {card2}
+                {card3}
               </div>{" "}
             </CarouselItem>
             <CarouselItem>
               <div className=" md:flex flex-wrap gap-10  hidden   ">
-                {cardLoop[0]}
-                {cardLoop[1]}
-                {cardLoop[2]}
+                {card1}
+                {card2}
+                {card3}
               </div>
             </CarouselItem>
           </CarouselContent>
