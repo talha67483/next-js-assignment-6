@@ -63,7 +63,7 @@ const Testimonials = () => {
           </Carousel>
         </div>
       </div>
-      <div className=" ml-12 w-[1168px] ">
+      <div className=" ml-12 w-[1168px] md:inline-block hidden ">
         <Carousel>
           <CarouselContent>
             <CarouselItem>
